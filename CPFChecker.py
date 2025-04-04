@@ -25,6 +25,8 @@ def validar_cpf(cpf: str) -> bool:
     return cpf[-2:] == primeiro_digito + segundo_digito
 
 # Exemplo de uso
+print("Tool made by: https://github.com/GabrielConforto")
+print("-------------------------------------------------")
 cpf = input("Digite o CPF para validar:")
 print("-----------------------")
 if validar_cpf(cpf):
